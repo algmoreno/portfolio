@@ -5,7 +5,7 @@ import profilePic from '../../assets/images/ProfilePic.jpg'
 function About() {
   return (
     <div className='row justify-content-evenly about-container'>
-      <div className='col-12'>
+      <div className='col-8'>
         <Card className='about-card'>
           <h1>About</h1>
           <Card.Img className='profile-pic' variant="top" src={profilePic} />

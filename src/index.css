@@ -83,3 +83,8 @@ code {
   background-image: linear-gradient(to bottom right, #5374a5, #27364d);
 }
 
+@media (min-width: 1400px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 100%;
+}
+}
