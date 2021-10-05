@@ -8,9 +8,9 @@ import Container from 'react-bootstrap/Container';
 function Navigation() {
   return (
     <>
-  <Navbar bg="dark" variant="dark">
-    <Container>
-    <Navbar.Brand href="#home">Alan Moreno</Navbar.Brand>
+  <Navbar className='navigation' fixed='top' variant="dark">
+    <Container >
+    <Navbar.Brand className='navigation-brand' href="#home">Alan Moreno</Navbar.Brand>
     <Nav className="me-auto">
       <Nav.Link href="#home">About</Nav.Link>
       <Nav.Link href="#features">Projects</Nav.Link>
@@ -18,7 +18,6 @@ function Navigation() {
     </Nav>
     </Container>
   </Navbar>
-
 </>
   )
 }

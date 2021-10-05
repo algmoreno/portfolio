@@ -5,9 +5,81 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgba(252, 252, 252, 0), rgb(253, 244, 226));
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  width: 100%;
+}
+
+.navigation {
+  background-image: linear-gradient(to bottom right, #5374a5, #293952);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.navigation-brand {
+  font-size: 25px;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255 / 100%);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.navbar-expand {
+  flex-wrap: wrap;
+}
+
+.about-container {
+  margin-top: 100px;
+
+}
+
+.about-card {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+}
+
+.about-card h1 {
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  height: 210px;
+  width:305px;
+  border-radius: 1000px;
+  border: solid 4px #27364d;
+  margin: auto
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 2rem 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+.skills-card{
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.footer {
+  /* background-color: #3e567b; */
+  background-image: linear-gradient(to bottom right, #5374a5, #27364d);
+}
+
