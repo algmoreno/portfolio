@@ -7,7 +7,7 @@ function About() {
     <div className='row justify-content-evenly about-container'>
       <div className='col-8'>
         <Card className='about-card'>
-          <h1>About</h1>
+          <h1 >About</h1>
           <Card.Img className='profile-pic' variant="top" src={profilePic} />
           <Card.Body>
             <Card.Text>

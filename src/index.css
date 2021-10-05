@@ -73,9 +73,21 @@ code {
   margin: auto;
 }
 
-.skills-card{
+.projects-container {
+  justify-content: center;
+  margin: auto
+}
+
+.projects-container h1 {
   text-align: center;
-  margin: 30px 0 30px 0;
+}
+
+.projects-col{
+  justify-content: center;
+}
+
+.project-card{
+  width: 100%;
 }
 
 .footer {
