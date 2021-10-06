@@ -45,17 +45,23 @@ code {
 
 .about-container {
   margin-top: 100px;
+}
 
+.about-card h2 {
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .about-card {
   background-color: transparent;
   border: none;
   text-align: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 60px;
 }
 
-.about-card h1 {
+.about-card h2 {
   margin-bottom: 30px;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .profile-pic {
@@ -75,20 +81,54 @@ code {
 
 .projects-container {
   justify-content: center;
-  margin: auto;
+  margin-bottom: 500px;
+  height: 500px;
 }
 
 .projects-container h2 {
   text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .projects-col{
   justify-content: center;
+  margin-top: -200px;
 }
 
-.project-card{
+.project-card {
   width: 100%;
+  height: 100%;
+  border: none;
 }
+
+.project-card:hover {
+  transform: scale(1.07);
+}
+
+.pet-shop-card {
+  background-image: url('../src/assets/images/pet-outlet-screenshot.png');
+}
+
+.congo-card {
+  background-image: url('../src/assets/images/congo-screenshot.png');
+}
+
+.weatherview-card {
+  background-image: url('../src/assets/images/weatherview-screenshot.png');
+}
+
+.codequiz-card {
+  background-image: url('../src/assets/images/codequiz-screenshot.jpg');
+}
+
+.blogspot-card {
+  background-image: url('../src/assets/images/blogspot-screenshot.jpg');
+}
+
+.jukebox-card {
+  background-image: url('../src/assets/images/myjukebox-screenshot.png');
+}
+
 
 .contact-form {
   margin-top: 100px;
