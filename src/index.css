@@ -51,6 +51,12 @@ code {
   font-family: 'Lexend Deca', sans-serif;
 }
 
+.about-card a {
+  color: rgb(0, 67, 168);
+  text-decoration: none;
+}
+
+
 .about-card {
   background-color: transparent;
   border: none;

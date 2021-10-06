@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import profilePic from '../../assets/images/ProfilePic.jpg'
+import { AiOutlineArrowRight } from 'react-icons/ai';
 
 function About() {
   return (
@@ -15,6 +16,7 @@ function About() {
               of the card's content. Some quick example text to build on the card title and make up the bulk
               of the card's content.
             </Card.Text>
+          <a href='https://docs.google.com/document/d/1IQVP6CRHNe1_5iL9m8HfmQVs2Yg6G0i777GyTrVldPg/edit' target='blank' >Resume <AiOutlineArrowRight /></a>
           </Card.Body>
         </Card>
       </div>
