@@ -5,16 +5,15 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 
 function About() {
   return (
-    <div className='row justify-content-evenly about-container'>
+    <div id='about' className='row justify-content-evenly about-container'>
       <div className='col-8'>
         <Card className='about-card'>
           <h2 >About</h2>
           <Card.Img className='profile-pic' variant="top" src={profilePic} />
           <Card.Body>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk
-              of the card's content. Some quick example text to build on the card title and make up the bulk
-              of the card's content.
+              I'm a full-stack web developer from Tucson, AZ with a bachelor's degree in business management. I plan to 
+              continue my career in web development because I love the combination of problem solving and creativity it involves.
             </Card.Text>
           <a href='https://docs.google.com/document/d/1IQVP6CRHNe1_5iL9m8HfmQVs2Yg6G0i777GyTrVldPg/edit' target='blank' >Resume <AiOutlineArrowRight /></a>
           </Card.Body>

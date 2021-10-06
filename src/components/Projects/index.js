@@ -5,7 +5,7 @@ import profilePic from '../../assets/images/ProfilePic.jpg'
 
 function Projects() {
   return (
-    <div className='row justify-content-evenly projects-container'>
+    <div id='portfolio' className='row justify-content-evenly projects-container'>
       <h2>Portfolio</h2>
       <div className='col-4 projects-col'>
         <Card className='project-card pet-shop-card'>

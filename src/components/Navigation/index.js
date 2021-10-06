@@ -12,8 +12,8 @@ function Navigation() {
     <Container >
     <Navbar.Brand className='navigation-brand' href="/">Alan Moreno</Navbar.Brand>
     <Nav className="me-auto">
-      <Nav.Link href="#home">About</Nav.Link>
-      <Nav.Link href="#">Portfolio</Nav.Link>
+      <Nav.Link href="#about">About</Nav.Link>
+      <Nav.Link href="#portfolio">Portfolio</Nav.Link>
       <Nav.Link href="/contact">Contact</Nav.Link>
     </Nav>
     </Container>
