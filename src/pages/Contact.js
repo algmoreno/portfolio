@@ -1,6 +1,13 @@
-const Contact =() => {
+import React from 'react';
+import ContactForm from '../components/ContactForm';
+// import ReactDOM from 'react-dom';
+
+const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className="container">
+      <ContactForm />
+    </div>
+
   );
 };
 

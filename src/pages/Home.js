@@ -10,7 +10,6 @@ const Home = () => {
     <div className="container">
       <About /> 
       <Projects />
-      <Contact />
     </div>
 
   );

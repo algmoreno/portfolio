@@ -1,27 +1,36 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import profilePic from '../../assets/images/ProfilePic.jpg'
 
 function Contact() {
   return (
-    <div className='row justify-content-evenly projects-container'>
+    <div className='row justify-content-evenly contact-form'>
       <h1>Contact</h1>
       <div className='col-2 projects-col'>
       
       </div>
       <div className='col-6'>
-      <Card className='project-card'>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
+      <Form>
+      <Form.Group className="mb-3" controlId="formBasicPassword">
+    <Form.Label>Name</Form.Label>
+    <Form.Control type="password" placeholder="Name" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="formBasicEmail">
+    <Form.Label>Email address</Form.Label>
+    <Form.Control type="email" placeholder="Enter email" />
+    <Form.Text className="text-muted">
+    </Form.Text>
+  </Form.Group>
+  
+  <Form.Group className="mb-3" controlId="formBasicPassword">
+    <Form.Label>Message</Form.Label>
+    <Form.Control type="password" placeholder="Leave a message" />
+  </Form.Group>
+  <Button variant="primary" type="submit">
+    Submit
+  </Button>
+</Form>
       </div>
       <div className='col-2'>
       
