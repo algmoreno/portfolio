@@ -14,7 +14,7 @@ function Footer() {
     <Container>
     <Nav className="">
       <Nav.Link className='footer-logos' href="https://github.com/algmoreno" target="_blank"><BsGithub  size={35}/></Nav.Link>
-      <Nav.Link className='footer-logos' href="#https://www.linkedin.com/in/alan-moreno-b46907126/" target="_blank"><BsLinkedin size={35}/></Nav.Link>
+      <Nav.Link className='footer-logos' href="https://www.linkedin.com/in/alan-moreno-b46907126/" target="_blank"><BsLinkedin size={35}/></Nav.Link>
       <Nav.Link className='footer-logos' href="mailto:alg.moreno00@gmail.com" target="_blank"><HiOutlineMail size={40}/></Nav.Link>
     </Nav>
     </Container>

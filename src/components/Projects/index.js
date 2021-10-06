@@ -6,7 +6,7 @@ import profilePic from '../../assets/images/ProfilePic.jpg'
 function Projects() {
   return (
     <div className='row justify-content-evenly projects-container'>
-      <h1>Projects</h1>
+      <h2>Projects</h2>
       <div className='col-4 projects-col'>
         <Card className='project-card'>
           <Card.Img variant="top" src="holder.js/100px180" />

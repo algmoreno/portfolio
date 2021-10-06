@@ -6,7 +6,7 @@ import profilePic from '../../assets/images/ProfilePic.jpg'
 function Contact() {
   return (
     <div className='row justify-content-evenly contact-form'>
-      <h1>Contact</h1>
+      <h2>Contact</h2>
       <div className='col-2 projects-col'>
       
       </div>
@@ -27,7 +27,7 @@ function Contact() {
     <Form.Label>Message</Form.Label>
     <Form.Control type="password" placeholder="Leave a message" />
   </Form.Group>
-  <Button variant="primary" type="submit">
+  <Button className='submit-btn' variant="primary" type="submit">
     Submit
   </Button>
 </Form>

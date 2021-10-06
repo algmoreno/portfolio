@@ -78,7 +78,7 @@ code {
   margin: auto;
 }
 
-.projects-container h1 {
+.projects-container h2 {
   text-align: center;
 }
 
@@ -88,6 +88,18 @@ code {
 
 .project-card{
   width: 100%;
+}
+
+.contact-form {
+  margin-top: 100px;
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+
+.submit-btn {
+  background-image: linear-gradient(to bottom right, #5374a5, #293952);
 }
 
 .footer {
