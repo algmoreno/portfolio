@@ -75,7 +75,7 @@ code {
 
 .projects-container {
   justify-content: center;
-  margin: auto
+  margin: auto;
 }
 
 .projects-container h1 {
@@ -91,8 +91,9 @@ code {
 }
 
 .footer {
-  /* background-color: #3e567b; */
+  margin-top: 100px;
   background-image: linear-gradient(to bottom right, #5374a5, #27364d);
+
 }
 
 @media (min-width: 1400px) {
