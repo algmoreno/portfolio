@@ -15,7 +15,7 @@ function About() {
               I'm a full-stack web developer from Tucson, AZ with a bachelor's degree in business management. I plan to 
               continue my career in web development because I love the combination of problem solving and creativity it involves.
             </Card.Text>
-          <a href='https://docs.google.com/document/d/1IQVP6CRHNe1_5iL9m8HfmQVs2Yg6G0i777GyTrVldPg/edit' target='blank' >Resume <AiOutlineArrowRight /></a>
+          <a href='https://docs.google.com/document/d/1IQVP6CRHNe1_5iL9m8HfmQVs2Yg6G0i777GyTrVldPg/edit?usp=sharing' target='blank' >Resume <AiOutlineArrowRight /></a>
           </Card.Body>
         </Card>
       </div>
